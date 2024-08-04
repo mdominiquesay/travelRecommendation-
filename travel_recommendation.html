@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <title>Travel Bloom</title>
     <link rel="stylesheet" href="./travel_recomendation.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
     <style>
         body {
             text-align: center;
@@ -28,36 +31,43 @@
         </nav>
         <div class="search-container">
             <input type="text" id="search-input" placeholder="Enter a destination or keyword">
-
             <button class="navBtn" id="search-button">Search</button>
             <button class="navBtn" id="clear-button">Clear</button>
         </div>
 
     </header>
-    <div class="social-icons">
-        <a href="#" class="social-icon"><img src="images/facebook.png"></a>
-        <a href="#" class="social-icon"><img src="images/instagram.png"></a>
-        <a href="#" class="social-icon"><img src="images/tweeter.png"></a>
-    </div>
-    <div class="overlay ">
-        <div class="Home_body"><div>
-            <div class="Home_header">Embark on Your Adventure</div>
-            <button id="book-button">Book Now</button>
+    <div class="Home_body">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><img src="images/facebook.png"></a>
+            <a href="#" class="social-icon"><img src="images/instagram.png"></a>
+            <a href="#" class="social-icon"><img src="images/tweeter.png"></a>
         </div>
-        <div class="recommendation" id="recommendation">
-            <div class="recommendation_img">
-                <img src="images/Singapore.JPG">
-            </div>
-            <div class="recommendation_desc">
-                <h3>Kyoto, Japan</h3>
-                <div class="recommendation_details">
-                A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture.
+        <div class="overlay ">
+            <div class="Home_body">
+                <div>
+                    <div class="Home_header">Embark on Your Adventure</div>
+                    <button id="book-button">Book Now</button>
                 </div>
-                <button id="book-button">Visit</button>
+
             </div>
         </div>
-    </div>
-    <script src="travel_recommendation.js"></script>
+            <div class="recommendation" id="recommendation">
+                <div>
+                    <div class="recommendation_img">
+                        <img src="images/Singapore.JPG">
+                    </div>
+                    <div class="recommendation_desc">
+                        <h3>Kyoto, Japan</h3>
+                        <div class="recommendation_details">
+                            A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and
+                            rich culture.
+                        </div>
+                        <button id="book-button">Visit</button>
+                    </div>
+                </div>
+            </div>
+        
+        <script src="travel_recommendation.js"></script>
 </body>
 
 </html>

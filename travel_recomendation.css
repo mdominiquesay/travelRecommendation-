@@ -41,7 +41,7 @@ body {
     /* Replace 'background.jpg' with your actual image file */
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     margin: 0;
     padding: 0;
     background-color: #141414;
@@ -111,8 +111,8 @@ h2 {
     padding: 10px;
     border: none;
     border-radius: 15px;
-
     font-size: 16px;
+    margin:0.1em;
 }
 
 .navBtn {
@@ -130,41 +130,50 @@ h2 {
 }
 .Home_body{
     display: flex;
+    width:40em;
 }
 .Home_header{
     margin: 30px;
-    font-size: 55px;
+    font-size: 3em;
     font-weight: bolder;
     color: white;
 }
 .recommendation{
-    padding: 20px;
+    position: relative;
+    left: 42rem;
+    max-width: 34em; /* Adjust maximum width as needed */
+    margin: 1px auto; /* Center align and add margin */
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .recommendation_img img{
     padding: 10px;
-    width: 500px;
+    width: 32em;
 }
 .recommendation_desc
 {
-    padding: 15px;
-    width: 500px;
+    margin-left:1em;
+    padding: 1em;
+    width: 30em;
     background-color: white;
     border-radius: 10px;
 }
 .recommendation_details
 {
-    margin: 4px;
+    margin: 0.1em;
 }
 .overlay {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    text-align: left;
     color: #000;
-    padding: 20px;
-    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 140px;
+    top: 55%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
 }
 
 .overlay h1 {
@@ -175,7 +184,7 @@ h2 {
 
 }
 
-#book-button {
+.book-button {
     padding: 10px;
     border: none;
     background-color: #008080;
@@ -187,11 +196,12 @@ h2 {
 
 .social-icons {
     position: absolute;
-    left: 40px;
+    left: 2em;
     top: 50%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
+    
 }
 
 .social-icon {
@@ -206,14 +216,6 @@ h2 {
     border-radius: 50%;
 }
 
-.social-icons {
-    position: absolute;
-    left: 40px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-}
 
 .social-icon {
     margin-bottom: 30px;
