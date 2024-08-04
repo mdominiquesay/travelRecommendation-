@@ -1,0 +1,233 @@
+/* Basic CSS for the navigation bar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    /* General styling for the navigation bar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* Adjust padding as needed */
+    background-color: #292929;
+    /* Match the background color from the image */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Basic CSS for the form elements */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/bg.jpg');
+    /* Replace 'background.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    position: relative;
+    height: 100vh;
+    /* Ensure full viewport height */
+    /* margin: 20px; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 1px;
+    border-radius: 15px;
+    background-color: #292929;
+    /* Adjust background color as needed */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.logo img {
+    height: 60px;
+    /* Adjust height as needed */
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+
+/* Basic CSS for the report section */
+h2 {
+    margin-top: 30px;
+}
+
+
+.search-container {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+#search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+
+    font-size: 16px;
+}
+
+.navBtn {
+    padding: 10px;
+    border: none;
+    background-color: #008080;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 7px;
+}
+
+.navBtn:hover {
+    background-color: #005555;
+}
+.Home_body{
+    display: flex;
+}
+.Home_header{
+    margin: 30px;
+    font-size: 55px;
+    font-weight: bolder;
+    color: white;
+}
+.recommendation{
+    padding: 20px;
+}
+.recommendation_img img{
+    padding: 10px;
+    width: 500px;
+}
+.recommendation_desc
+{
+    padding: 15px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+.recommendation_details
+{
+    margin: 4px;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.overlay h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI';
+    color: #ffffff;
+
+}
+
+#book-button {
+    padding: 10px;
+    border: none;
+    background-color: #008080;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 7px;
+}
+
+.social-icons {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icon {
+    margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icon {
+    margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}

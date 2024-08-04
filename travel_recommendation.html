@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Bloom</title>
+    <link rel="stylesheet" href="./travel_recomendation.css">
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="TravelBloom">
+            <p>TravelBloom</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+                <li><a href="./about_us.html" id="home">About Us </a></li>
+                <li><a href="./contact_us.html" id="contact">Contact Us </a></li>
+                </li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Enter a destination or keyword">
+
+            <button class="navBtn" id="search-button">Search</button>
+            <button class="navBtn" id="clear-button">Clear</button>
+        </div>
+
+    </header>
+    <div class="social-icons">
+        <a href="#" class="social-icon"><img src="images/facebook.png"></a>
+        <a href="#" class="social-icon"><img src="images/instagram.png"></a>
+        <a href="#" class="social-icon"><img src="images/tweeter.png"></a>
+    </div>
+    <div class="overlay ">
+        <div class="Home_body"><div>
+            <div class="Home_header">Embark on Your Adventure</div>
+            <button id="book-button">Book Now</button>
+        </div>
+        <div class="recommendation" id="recommendation">
+            <div class="recommendation_img">
+                <img src="images/Singapore.JPG">
+            </div>
+            <div class="recommendation_desc">
+                <h3>Kyoto, Japan</h3>
+                <div class="recommendation_details">
+                A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture.
+                </div>
+                <button id="book-button">Visit</button>
+            </div>
+        </div>
+    </div>
+    <script src="travel_recommendation.js"></script>
+</body>
+
+</html>

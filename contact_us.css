@@ -1,0 +1,45 @@
+.contact_overlay {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    color: #ffffff;
+    display: flex;
+    background-color: rgba(61, 60, 60, 0.55);
+}
+.contact_form{
+    display: flex;
+ 
+}
+.contact_desc
+{
+    padding: 20px;
+    display: inline-block;
+    min-width: 500px;
+}
+.contact_desc h1
+{
+    padding-top: 30px;
+}
+form {
+    min-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(61, 60, 60, 0.55);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgba(61, 60, 60, 0.15);
+    border-radius: 15px;
+    border: 1px solid #ccc;
+  }

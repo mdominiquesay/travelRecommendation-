@@ -1,0 +1,60 @@
+
+#company_info {
+    padding: 15px;
+    color: #ffffff;
+    background-color: rgba(61, 60, 60, 0.75);
+    font-size: 17px;
+    line-height: 2;
+    word-spacing: 5px;
+}
+
+.our-team {
+    background-color: rgba(61, 60, 60, 0.75);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+    font-size: 36px;
+    color: #fff; /* Or your desired color */
+  }
+
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Adjust width as needed */
+  text-align: center;
+  color: #fff; /* Or your desired color */
+  }
+  .team-member img {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+ ul {
+    list-style: none;
+    display: flex;
+}
+
+ ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.contact_us_page{
+    background-color: rgba(61, 60, 60, 0.45);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
